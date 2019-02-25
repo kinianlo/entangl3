@@ -21,6 +21,6 @@ Tensorflow
 * __plot_error_exact.py__ - Summarises the root mean squared error (RMSE) for SDI, BME, and the maximum possible RMSE.
 * __plot_error_monte_carlo.py__ - Summarises the root mean squared error (RMSE) for SDI using data generated with __data_generation.py__. 
 * __BSc_Project_Report.pdf__ - Includes everything you need to know about the project. 
-* __dataset/10k1m_m5_10_20_40.csv__ - Dataset for N (no. of measurement) = 5, 10, 20 and 40. For each N, there are 10,000 training data and 10,000 testing data. 
-* __dataset/10k1m_m10_100_1000.csv__ - Dataset for N (no. of measurement) = 10, 100 and 1000. For each N, there are 10,000 training data and 10,000 testing data. 
+* __dataset/10k10k_m5_10_20_40.csv__ - Dataset for N (no. of measurement) = 5, 10, 20 and 40. For each N, there are 10,000 training data and 10,000 testing data. 
+* __dataset/10k10k_m10_100_1000.csv__ - Dataset for N (no. of measurement) = 10, 100 and 1000. For each N, there are 10,000 training data and 10,000 testing data. 
 * __dataset/10k2k_m5_to_m1000.csv__ - Dataset for N (no. of measurement) = 5, 10, 50, 100, 500 and 1000. For each N, there are 10,000 training data and 10,000 testing data. 
