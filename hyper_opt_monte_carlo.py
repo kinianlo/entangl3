@@ -9,6 +9,7 @@ import pandas as pd
 import numpy as np
 import utilities
 from keras.models import Sequential
+from keras.layers import Dense, Activation
 from time import time
 import data_generation
 

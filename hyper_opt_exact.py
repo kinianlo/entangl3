@@ -9,6 +9,7 @@ import pandas as pd
 import numpy as np
 import utilities
 from keras.models import Sequential
+from keras.layers import Dense, Activation
 from prob_integral import VNE_CoM_Predictor
 
 df_raw = pd.read_csv('dataset/10k10k_m5_10_20_40.csv', index_col=0)
