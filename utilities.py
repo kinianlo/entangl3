@@ -23,9 +23,3 @@ def get_bloch_length(VN_entropies):
     E = get_VN_entropy(V)
     f = interp1d(E, V, kind='cubic', assume_sorted=True, bounds_error=False, fill_value=(1, 0))
     return f(VN_entropies)
-
-def get_VN_entropy_jac(bloch_lengths):
-    """
-    Gives the Jacobian of von Neumann entropy for numerical integrations
-    """
-    return 0.5 * np.log((1+bloch_lengths)/(1-bloch_lengths))
